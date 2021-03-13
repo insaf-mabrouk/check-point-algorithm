@@ -1,0 +1,14 @@
+Algo: voyel_num
+var
+    s: string :="I love my family"
+    n: integer:= length(s)
+    num_voyl=0
+
+begin
+    for i in (0,n)
+       if (s[i] in ['a','e','i','o','u','y'])
+          then
+          num_voyl=num_voyl+1;
+    write num_voyl
+end 
+ 

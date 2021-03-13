@@ -1,0 +1,12 @@
+Algo: length_sentence
+var
+    s: string :="I love my family."
+    count = 0;
+    n: integer:= length(s)
+
+begin
+  for i in (0,n)
+        count = count + 1;
+    write count
+end 
+ 

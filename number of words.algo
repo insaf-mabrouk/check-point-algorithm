@@ -1,0 +1,14 @@
+Algo: word_num
+var
+    s: string :="I love my family"
+    n: integer:= length(s)
+    nb_mots=0
+
+begin
+  for i in (0,n)
+       if (s[i]='')
+        then
+        nb_mots=nb_mots+1
+    write nb_mots:
+end
+ 
